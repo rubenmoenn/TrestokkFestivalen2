@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/background"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:contentDescription="@string/TODO"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/background" />
+
+    <Button
+        android:id="@+id/festival_button"
+
+        android:layout_width="270dp"
+        android:layout_height="60dp"
+
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/buttonshape"
+        android:contentDescription="@string/TODO"
+        android:fontFamily="@font/roboto_bold_new"
+        android:text="@string/Festival_knapp"
+        android:textColor="@android:color/background_light"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.68" />
+
+    <Button
+        android:id="@+id/info_button"
+
+        android:layout_width="270dp"
+        android:layout_height="60dp"
+
+        android:layout_marginTop="16dp"
+        android:background="@drawable/buttonshape"
+        android:contentDescription="@string/TODO"
+        android:fontFamily="@font/roboto_bold_new"
+        android:text="@string/Info_knapp"
+        android:textColor="@android:color/background_light"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/festival_button" />
+
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_bold_new"
+        android:text="TrestokkFestivalen"
+        android:textColor="@android:color/background_light"
+        android:textSize="33sp"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/velkommen" />
+
+    <TextView
+        android:id="@+id/velkommen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/roboto_thin"
+        android:text="@string/Velkommen"
+        android:textColor="@android:color/background_light"
+        android:textSize="50sp"
+        app:layout_constraintBottom_toTopOf="@+id/festival_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.23000002" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="294dp"
+        android:layout_height="75dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/velkommen"
+        app:srcCompat="@drawable/trestokk_logo" />
+
+    <Button
+        android:id="@+id/billett_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/buttonshape"
+        android:fontFamily="@font/roboto_bold_new"
+        android:text="@string/Billett_knapp"
+        android:textColor="@color/colorText"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/info_button" />
+
+
+</android.support.constraint.ConstraintLayout>

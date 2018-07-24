@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/ic_artister"
+        android:enabled="true"
+        android:icon="@drawable/ic_artister"
+        android:title="Artister"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/ic_billetter"
+        android:enabled="true"
+        android:icon="@drawable/ic_billetter"
+        android:title="Billetter"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/ic_overnatting"
+        android:enabled="true"
+        android:icon="@drawable/ic_overnatting"
+        android:title="Overnatting"
+        app:showAsAction="ifRoom"/>
+
+
+</menu>

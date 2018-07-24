@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">TrestokkFestivalen</string>
+    <string name="actual_app_name">Trestokk Festivalen</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_main">Main</string>
+    <string name="title_activity_info">Info</string>
+    <string name="TODO">TODO</string>
+
+    <string name="Velkommen">Velkommen til</string>
+    <string name="Trestokkfestivalen">TrestokkFestivalen!</string>
+
+
+    <string name="Festival_knapp">Festival Kart</string>
+    <string name="Info_knapp">Info</string>
+    <string name="Billett_knapp">Billetter</string>
+
+    <string name="TrestokkFeeling">"The Trestokkfeeling"</string>
+    <string name="Blokk_TrestokkFeeling">
+        “Trestokkfestivalen ønsker å skape «The Trestokkfeeling» hos
+        både gjester og artister. Skogen Joy som er arrangør av
+        festivalen har et stort område til rådighet når det
+        skal arrangeres festival. På Haslemoen har vi
+        tilgang på store campområder, kaserner med
+        innendørs overnatting og ikke minst spisesal til
+        mange hundre mennesker om gangen.
+    </string>
+    <string name="Blokk_feeling2">
+        I 2017 hadde vi to scener. 1 Hovedscene og 1 litt mindre scene.
+        I 2018 er lineup’en fullspekket med toppnavn så derfor har vi
+        økt størrelsen på den lille scenen og plassert scenene ovenfor
+        hverandre slik at man i praksis bare kan snu seg rundt for å ta
+        del i neste konsert da den man ser på er ferdig. På denne måten
+        blir det hele tiden en intim følelse foran begge scener, og man
+        kan få med seg alt som skjer.
+    </string>
+
+    <string name="Artister">Artister</string>
+    <string name="Artist_blokk">
+        Alle dine favoritt artister på trestokkfestivalen!
+    </string>
+
+
+    <string name="dum_dum_boys">Dum Dum Boys</string>
+    <string name="cc_cowboys">CC Cowboys</string>
+    <string name="vintage_trouble">Vintage Trouble</string>
+    <string name="sivert_høyem">Sivert Høyem</string>
+    <string name="queen_machine">Queen Machine</string>
+    <string name="raga_rockers">Raga Rockers</string>
+    <string name="jacob_dinesen">Jacob Dinesen</string>
+    <string name="madno_diao">trubadur_bayer_the_ringmaster</string>
+    <string name="jarle_bernhoft">Jarle Bernhoft</string>
+    <string name="sol_heilo">Sol Heilo</string>
+    <string name="odd_norstoga">Odd Norstoga</string>
+    <string name="spelloppmaker">Spelloppmaker</string>
+    <string name="jonah_blacksmith">Jonah Blacksmith</string>
+    <string name="inge_bremnes">Inge Bremnes</string>
+    <string name="monkey_business">Monkey Business</string>
+    <string name="white_dominos">White Dominos</string>
+
+</resources>
